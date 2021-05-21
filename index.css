@@ -1,0 +1,23 @@
+div[id="points"],button, h3 {
+    margin-left: 46%;
+    margin-bottom: 1%;
+    font-size: 20px;
+    
+}
+
+.grid-container {
+    margin: 20px auto;
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+}
+
+.grid-item {
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #7b7d8f;
+    border: 1px solid black;
+    cursor: pointer;
+}
